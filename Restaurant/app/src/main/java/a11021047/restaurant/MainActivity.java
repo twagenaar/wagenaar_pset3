@@ -113,7 +113,7 @@ public class MainActivity extends AppCompatActivity {
                 myStringArray.add(item);
 
             }
-
+            System.out.println(myStringArray);
             ArrayAdapter<String> list = new ArrayAdapter<>(MainActivity.this,
                     android.R.layout.simple_list_item_1,
                     myStringArray);
@@ -129,7 +129,7 @@ public class MainActivity extends AppCompatActivity {
 
         }
         catch(Exception e) {
-            System.out.println(e);
+            System.out.println(e.toString());
         }
     }
 

@@ -51,7 +51,7 @@
             android:layout_height="wrap_content"
             android:onClick="addOrder"
             android:layout_weight="1"
-            android:text="@string/order" />
+            android:text="@string/place" />
 
     </LinearLayout>
 
