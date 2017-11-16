@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Restaurant</string>
+    <string-array name="courses">
+        <item>Appetizer</item>
+        <item>Main Course</item>
+        <item>Dessert</item>
+        <item>Drinks</item>
+    </string-array>
+    <string name="order">Order</string>
+    <string name="remove">Remove</string>
+    <string name="menu">Menu</string>
+    <string name="send">Send</string>
+</resources>
